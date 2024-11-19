@@ -1,5 +1,6 @@
 import {Link} from 'react-router-dom'
 const Home = ({data}) => {
+  console.log(data)
   return (
     <>
     <h2>Lista de datos</h2>
